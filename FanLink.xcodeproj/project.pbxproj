@@ -1,0 +1,805 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A68F4FB8C64F61F216CC520B /* Pods_FanLink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0568CD7862702DAFCAEF4C58 /* Pods_FanLink.framework */; };
+		FC31187620A58C7500B8E547 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31182820A58C7500B8E547 /* Reachability.swift */; };
+		FC31187720A58C7500B8E547 /* AdminRowHeightCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31182A20A58C7500B8E547 /* AdminRowHeightCounter.swift */; };
+		FC31187820A58C7500B8E547 /* InsettedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31182B20A58C7500B8E547 /* InsettedLabel.swift */; };
+		FC31187920A58C7500B8E547 /* RowHeightCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31182C20A58C7500B8E547 /* RowHeightCounter.swift */; };
+		FC31187A20A58C7500B8E547 /* StaticVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31182D20A58C7500B8E547 /* StaticVariables.swift */; };
+		FC31188D20A58C7500B8E547 /* AdminLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31184620A58C7500B8E547 /* AdminLoginViewController.swift */; };
+		FC31188E20A58C7500B8E547 /* SeePollsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31184820A58C7500B8E547 /* SeePollsViewController.swift */; };
+		FC31188F20A58C7500B8E547 /* SeePollCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31184A20A58C7500B8E547 /* SeePollCell.swift */; };
+		FC31189020A58C7500B8E547 /* SeeQuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31184C20A58C7500B8E547 /* SeeQuestionsViewController.swift */; };
+		FC31189120A58C7500B8E547 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31184E20A58C7500B8E547 /* SignUpController.swift */; };
+		FC31189220A58C7600B8E547 /* AskedQuestoinsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31185020A58C7500B8E547 /* AskedQuestoinsViewController.swift */; };
+		FC31189320A58C7600B8E547 /* AdminQuestionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31185220A58C7500B8E547 /* AdminQuestionCell.swift */; };
+		FC31189420A58C7600B8E547 /* ManageRaffleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31185420A58C7500B8E547 /* ManageRaffleViewController.swift */; };
+		FC31189520A58C7600B8E547 /* NewPollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31185620A58C7500B8E547 /* NewPollViewController.swift */; };
+		FC31189620A58C7600B8E547 /* RepliesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31185820A58C7500B8E547 /* RepliesViewController.swift */; };
+		FC31189720A58C7600B8E547 /* AdminReplyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31185A20A58C7500B8E547 /* AdminReplyCell.swift */; };
+		FC31189820A58C7600B8E547 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31185C20A58C7500B8E547 /* LandingViewController.swift */; };
+		FC31189920A58C7600B8E547 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31185E20A58C7500B8E547 /* TabBarViewController.swift */; };
+		FC31189A20A58C7600B8E547 /* DisplayQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31186120A58C7500B8E547 /* DisplayQuestionViewController.swift */; };
+		FC31189B20A58C7600B8E547 /* FanLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31186320A58C7500B8E547 /* FanLoginViewController.swift */; };
+		FC31189C20A58C7600B8E547 /* QAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31186520A58C7500B8E547 /* QAViewController.swift */; };
+		FC31189D20A58C7600B8E547 /* QuestionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31186720A58C7500B8E547 /* QuestionCell.swift */; };
+		FC31189E20A58C7600B8E547 /* QRScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31186920A58C7500B8E547 /* QRScannerViewController.swift */; };
+		FC31189F20A58C7600B8E547 /* RaffleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31186B20A58C7500B8E547 /* RaffleViewController.swift */; };
+		FC3118A020A58C7600B8E547 /* ResponseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31186D20A58C7500B8E547 /* ResponseTableViewController.swift */; };
+		FC3118A120A58C7600B8E547 /* ResponseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31186F20A58C7500B8E547 /* ResponseCell.swift */; };
+		FC3118A220A58C7600B8E547 /* NewQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31187120A58C7500B8E547 /* NewQuestionViewController.swift */; };
+		FC3118A320A58C7600B8E547 /* PollsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31187320A58C7500B8E547 /* PollsViewController.swift */; };
+		FC3118A420A58C7600B8E547 /* PollCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31187520A58C7500B8E547 /* PollCell.swift */; };
+		FC3118D120A6387A00B8E547 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC3118BD20A6387900B8E547 /* Main.storyboard */; };
+		FC3118D220A6387A00B8E547 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3118BE20A6387900B8E547 /* AppDelegate.swift */; };
+		FC3118D320A6387A00B8E547 /* OrganizerStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC3118BF20A6387900B8E547 /* OrganizerStoryboard.storyboard */; };
+		FC3118D420A6387A00B8E547 /* ProximaNova-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC3118C120A6387900B8E547 /* ProximaNova-Black.otf */; };
+		FC3118D520A6387A00B8E547 /* ProximaNova-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC3118C220A6387900B8E547 /* ProximaNova-Bold.otf */; };
+		FC3118D620A6387A00B8E547 /* ProximaNova-BoldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC3118C320A6387900B8E547 /* ProximaNova-BoldIt.otf */; };
+		FC3118D720A6387A00B8E547 /* ProximaNova-Extrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC3118C420A6387900B8E547 /* ProximaNova-Extrabold.otf */; };
+		FC3118D820A6387A00B8E547 /* ProximaNova-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC3118C520A6387900B8E547 /* ProximaNova-Light.otf */; };
+		FC3118D920A6387A00B8E547 /* ProximaNova-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC3118C620A6387900B8E547 /* ProximaNova-LightItalic.otf */; };
+		FC3118DA20A6387A00B8E547 /* ProximaNova-RegItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC3118C720A6387900B8E547 /* ProximaNova-RegItalic.otf */; };
+		FC3118DB20A6387A00B8E547 /* ProximaNova-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC3118C820A6387900B8E547 /* ProximaNova-Regular.otf */; };
+		FC3118DC20A6387A00B8E547 /* ProximaNova-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC3118C920A6387900B8E547 /* ProximaNova-RegularItalic.otf */; };
+		FC3118DD20A6387A00B8E547 /* ProximaNova-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC3118CA20A6387900B8E547 /* ProximaNova-Semibold.otf */; };
+		FC3118DE20A6387A00B8E547 /* ProximaNova-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC3118CB20A6387900B8E547 /* ProximaNova-SemiboldItalic.otf */; };
+		FC3118DF20A6387A00B8E547 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC3118CC20A6387900B8E547 /* LaunchScreen.storyboard */; };
+		FC3118E020A6387A00B8E547 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC3118CE20A6387900B8E547 /* Info.plist */; };
+		FC3118E120A6387A00B8E547 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC3118CF20A6387A00B8E547 /* Assets.xcassets */; };
+		FC3118E220A6387A00B8E547 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC3118D020A6387A00B8E547 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0568CD7862702DAFCAEF4C58 /* Pods_FanLink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FanLink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A3ABE281E8F963200519C5F /* FanLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FanLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50ABAB37ED8AB065F0673ED2 /* Pods-FanLink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FanLink.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FanLink/Pods-FanLink.debug.xcconfig"; sourceTree = "<group>"; };
+		8C21325C4D285814C6C0EEB0 /* Pods-FanLink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FanLink.release.xcconfig"; path = "Pods/Target Support Files/Pods-FanLink/Pods-FanLink.release.xcconfig"; sourceTree = "<group>"; };
+		FC31182820A58C7500B8E547 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		FC31182A20A58C7500B8E547 /* AdminRowHeightCounter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdminRowHeightCounter.swift; sourceTree = "<group>"; };
+		FC31182B20A58C7500B8E547 /* InsettedLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsettedLabel.swift; sourceTree = "<group>"; };
+		FC31182C20A58C7500B8E547 /* RowHeightCounter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowHeightCounter.swift; sourceTree = "<group>"; };
+		FC31182D20A58C7500B8E547 /* StaticVariables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaticVariables.swift; sourceTree = "<group>"; };
+		FC31184620A58C7500B8E547 /* AdminLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdminLoginViewController.swift; sourceTree = "<group>"; };
+		FC31184820A58C7500B8E547 /* SeePollsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeePollsViewController.swift; sourceTree = "<group>"; };
+		FC31184A20A58C7500B8E547 /* SeePollCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeePollCell.swift; sourceTree = "<group>"; };
+		FC31184C20A58C7500B8E547 /* SeeQuestionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeeQuestionsViewController.swift; sourceTree = "<group>"; };
+		FC31184E20A58C7500B8E547 /* SignUpController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		FC31185020A58C7500B8E547 /* AskedQuestoinsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AskedQuestoinsViewController.swift; sourceTree = "<group>"; };
+		FC31185220A58C7500B8E547 /* AdminQuestionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdminQuestionCell.swift; sourceTree = "<group>"; };
+		FC31185420A58C7500B8E547 /* ManageRaffleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManageRaffleViewController.swift; sourceTree = "<group>"; };
+		FC31185620A58C7500B8E547 /* NewPollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewPollViewController.swift; sourceTree = "<group>"; };
+		FC31185820A58C7500B8E547 /* RepliesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepliesViewController.swift; sourceTree = "<group>"; };
+		FC31185A20A58C7500B8E547 /* AdminReplyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdminReplyCell.swift; sourceTree = "<group>"; };
+		FC31185C20A58C7500B8E547 /* LandingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
+		FC31185E20A58C7500B8E547 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		FC31186120A58C7500B8E547 /* DisplayQuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayQuestionViewController.swift; sourceTree = "<group>"; };
+		FC31186320A58C7500B8E547 /* FanLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanLoginViewController.swift; sourceTree = "<group>"; };
+		FC31186520A58C7500B8E547 /* QAViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QAViewController.swift; sourceTree = "<group>"; };
+		FC31186720A58C7500B8E547 /* QuestionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionCell.swift; sourceTree = "<group>"; };
+		FC31186920A58C7500B8E547 /* QRScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScannerViewController.swift; sourceTree = "<group>"; };
+		FC31186B20A58C7500B8E547 /* RaffleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaffleViewController.swift; sourceTree = "<group>"; };
+		FC31186D20A58C7500B8E547 /* ResponseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseTableViewController.swift; sourceTree = "<group>"; };
+		FC31186F20A58C7500B8E547 /* ResponseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseCell.swift; sourceTree = "<group>"; };
+		FC31187120A58C7500B8E547 /* NewQuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewQuestionViewController.swift; sourceTree = "<group>"; };
+		FC31187320A58C7500B8E547 /* PollsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PollsViewController.swift; sourceTree = "<group>"; };
+		FC31187520A58C7500B8E547 /* PollCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PollCell.swift; sourceTree = "<group>"; };
+		FC3118BD20A6387900B8E547 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FC3118BE20A6387900B8E547 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC3118BF20A6387900B8E547 /* OrganizerStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OrganizerStoryboard.storyboard; sourceTree = "<group>"; };
+		FC3118C120A6387900B8E547 /* ProximaNova-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Black.otf"; sourceTree = "<group>"; };
+		FC3118C220A6387900B8E547 /* ProximaNova-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Bold.otf"; sourceTree = "<group>"; };
+		FC3118C320A6387900B8E547 /* ProximaNova-BoldIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-BoldIt.otf"; sourceTree = "<group>"; };
+		FC3118C420A6387900B8E547 /* ProximaNova-Extrabold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Extrabold.otf"; sourceTree = "<group>"; };
+		FC3118C520A6387900B8E547 /* ProximaNova-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Light.otf"; sourceTree = "<group>"; };
+		FC3118C620A6387900B8E547 /* ProximaNova-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-LightItalic.otf"; sourceTree = "<group>"; };
+		FC3118C720A6387900B8E547 /* ProximaNova-RegItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-RegItalic.otf"; sourceTree = "<group>"; };
+		FC3118C820A6387900B8E547 /* ProximaNova-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Regular.otf"; sourceTree = "<group>"; };
+		FC3118C920A6387900B8E547 /* ProximaNova-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-RegularItalic.otf"; sourceTree = "<group>"; };
+		FC3118CA20A6387900B8E547 /* ProximaNova-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Semibold.otf"; sourceTree = "<group>"; };
+		FC3118CB20A6387900B8E547 /* ProximaNova-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		FC3118CC20A6387900B8E547 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC3118CD20A6387900B8E547 /* FanLink.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = FanLink.entitlements; sourceTree = "<group>"; };
+		FC3118CE20A6387900B8E547 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC3118CF20A6387A00B8E547 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC3118D020A6387A00B8E547 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A3ABE251E8F963200519C5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A68F4FB8C64F61F216CC520B /* Pods_FanLink.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A3ABE1F1E8F963200519C5F = {
+			isa = PBXGroup;
+			children = (
+				2A3ABE2A1E8F963200519C5F /* FanLink */,
+				2A3ABE291E8F963200519C5F /* Products */,
+				3FA90B27EFAF4DF3C0CCBFFF /* Pods */,
+				6B8573663EE32705A7DC609C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2A3ABE291E8F963200519C5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A3ABE281E8F963200519C5F /* FanLink.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A3ABE2A1E8F963200519C5F /* FanLink */ = {
+			isa = PBXGroup;
+			children = (
+				FC31184320A58C7500B8E547 /* ViewControllers */,
+				FC31182920A58C7500B8E547 /* Constants */,
+				FC31182720A58C7500B8E547 /* Network */,
+				FC3118BC20A6376900B8E547 /* Resources */,
+			);
+			path = FanLink;
+			sourceTree = "<group>";
+		};
+		3FA90B27EFAF4DF3C0CCBFFF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50ABAB37ED8AB065F0673ED2 /* Pods-FanLink.debug.xcconfig */,
+				8C21325C4D285814C6C0EEB0 /* Pods-FanLink.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6B8573663EE32705A7DC609C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0568CD7862702DAFCAEF4C58 /* Pods_FanLink.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC31182720A58C7500B8E547 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				FC31182820A58C7500B8E547 /* Reachability.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		FC31182920A58C7500B8E547 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				FC31182D20A58C7500B8E547 /* StaticVariables.swift */,
+				FC31182B20A58C7500B8E547 /* InsettedLabel.swift */,
+				FC31182A20A58C7500B8E547 /* AdminRowHeightCounter.swift */,
+				FC31182C20A58C7500B8E547 /* RowHeightCounter.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		FC31184320A58C7500B8E547 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FC31185B20A58C7500B8E547 /* LandingViewController */,
+				FC31185D20A58C7500B8E547 /* TabBarViewController */,
+				FC31184420A58C7500B8E547 /* AdminViewControllers */,
+				FC31185F20A58C7500B8E547 /* UserViewControllers */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FC31184420A58C7500B8E547 /* AdminViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FC31184D20A58C7500B8E547 /* AdminSignUpController */,
+				FC31184520A58C7500B8E547 /* AdminLoginViewController */,
+				FC31184720A58C7500B8E547 /* AdminPollsViewController */,
+				FC31185520A58C7500B8E547 /* NewPollViewController */,
+				FC31184F20A58C7500B8E547 /* AskedQuestionsViewController */,
+				FC31184B20A58C7500B8E547 /* AdminQuestionsViewController */,
+				FC31185720A58C7500B8E547 /* RepliesViewController */,
+				FC31185320A58C7500B8E547 /* ManageRaffleViewController */,
+			);
+			path = AdminViewControllers;
+			sourceTree = "<group>";
+		};
+		FC31184520A58C7500B8E547 /* AdminLoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FC31184620A58C7500B8E547 /* AdminLoginViewController.swift */,
+			);
+			path = AdminLoginViewController;
+			sourceTree = "<group>";
+		};
+		FC31184720A58C7500B8E547 /* AdminPollsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FC31184920A58C7500B8E547 /* Views */,
+				FC31184820A58C7500B8E547 /* SeePollsViewController.swift */,
+			);
+			path = AdminPollsViewController;
+			sourceTree = "<group>";
+		};
+		FC31184920A58C7500B8E547 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FC31184A20A58C7500B8E547 /* SeePollCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FC31184B20A58C7500B8E547 /* AdminQuestionsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FC31184C20A58C7500B8E547 /* SeeQuestionsViewController.swift */,
+			);
+			path = AdminQuestionsViewController;
+			sourceTree = "<group>";
+		};
+		FC31184D20A58C7500B8E547 /* AdminSignUpController */ = {
+			isa = PBXGroup;
+			children = (
+				FC31184E20A58C7500B8E547 /* SignUpController.swift */,
+			);
+			path = AdminSignUpController;
+			sourceTree = "<group>";
+		};
+		FC31184F20A58C7500B8E547 /* AskedQuestionsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FC31185120A58C7500B8E547 /* Views */,
+				FC31185020A58C7500B8E547 /* AskedQuestoinsViewController.swift */,
+			);
+			path = AskedQuestionsViewController;
+			sourceTree = "<group>";
+		};
+		FC31185120A58C7500B8E547 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FC31185220A58C7500B8E547 /* AdminQuestionCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FC31185320A58C7500B8E547 /* ManageRaffleViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FC31185420A58C7500B8E547 /* ManageRaffleViewController.swift */,
+			);
+			path = ManageRaffleViewController;
+			sourceTree = "<group>";
+		};
+		FC31185520A58C7500B8E547 /* NewPollViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FC31185620A58C7500B8E547 /* NewPollViewController.swift */,
+			);
+			path = NewPollViewController;
+			sourceTree = "<group>";
+		};
+		FC31185720A58C7500B8E547 /* RepliesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FC31185920A58C7500B8E547 /* Views */,
+				FC31185820A58C7500B8E547 /* RepliesViewController.swift */,
+			);
+			path = RepliesViewController;
+			sourceTree = "<group>";
+		};
+		FC31185920A58C7500B8E547 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FC31185A20A58C7500B8E547 /* AdminReplyCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FC31185B20A58C7500B8E547 /* LandingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FC31185C20A58C7500B8E547 /* LandingViewController.swift */,
+			);
+			path = LandingViewController;
+			sourceTree = "<group>";
+		};
+		FC31185D20A58C7500B8E547 /* TabBarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FC31185E20A58C7500B8E547 /* TabBarViewController.swift */,
+			);
+			path = TabBarViewController;
+			sourceTree = "<group>";
+		};
+		FC31185F20A58C7500B8E547 /* UserViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FC31186220A58C7500B8E547 /* FanLoginViewController */,
+				FC31186820A58C7500B8E547 /* QRScannerViewController */,
+				FC31187220A58C7500B8E547 /* UserPollsViewController */,
+				FC31186420A58C7500B8E547 /* QAViewController */,
+				FC31187020A58C7500B8E547 /* UserNewQuestionController */,
+				FC31186020A58C7500B8E547 /* DisplayQuestionsController */,
+				FC31186C20A58C7500B8E547 /* ResponseTableViewController */,
+				FC31186A20A58C7500B8E547 /* RaffleViewController */,
+			);
+			path = UserViewControllers;
+			sourceTree = "<group>";
+		};
+		FC31186020A58C7500B8E547 /* DisplayQuestionsController */ = {
+			isa = PBXGroup;
+			children = (
+				FC31186120A58C7500B8E547 /* DisplayQuestionViewController.swift */,
+			);
+			path = DisplayQuestionsController;
+			sourceTree = "<group>";
+		};
+		FC31186220A58C7500B8E547 /* FanLoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FC31186320A58C7500B8E547 /* FanLoginViewController.swift */,
+			);
+			path = FanLoginViewController;
+			sourceTree = "<group>";
+		};
+		FC31186420A58C7500B8E547 /* QAViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FC31186620A58C7500B8E547 /* Views */,
+				FC31186520A58C7500B8E547 /* QAViewController.swift */,
+			);
+			path = QAViewController;
+			sourceTree = "<group>";
+		};
+		FC31186620A58C7500B8E547 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FC31186720A58C7500B8E547 /* QuestionCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FC31186820A58C7500B8E547 /* QRScannerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FC31186920A58C7500B8E547 /* QRScannerViewController.swift */,
+			);
+			path = QRScannerViewController;
+			sourceTree = "<group>";
+		};
+		FC31186A20A58C7500B8E547 /* RaffleViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FC31186B20A58C7500B8E547 /* RaffleViewController.swift */,
+			);
+			path = RaffleViewController;
+			sourceTree = "<group>";
+		};
+		FC31186C20A58C7500B8E547 /* ResponseTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FC31186E20A58C7500B8E547 /* Views */,
+				FC31186D20A58C7500B8E547 /* ResponseTableViewController.swift */,
+			);
+			path = ResponseTableViewController;
+			sourceTree = "<group>";
+		};
+		FC31186E20A58C7500B8E547 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FC31186F20A58C7500B8E547 /* ResponseCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FC31187020A58C7500B8E547 /* UserNewQuestionController */ = {
+			isa = PBXGroup;
+			children = (
+				FC31187120A58C7500B8E547 /* NewQuestionViewController.swift */,
+			);
+			path = UserNewQuestionController;
+			sourceTree = "<group>";
+		};
+		FC31187220A58C7500B8E547 /* UserPollsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FC31187420A58C7500B8E547 /* Views */,
+				FC31187320A58C7500B8E547 /* PollsViewController.swift */,
+			);
+			path = UserPollsViewController;
+			sourceTree = "<group>";
+		};
+		FC31187420A58C7500B8E547 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FC31187520A58C7500B8E547 /* PollCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FC3118BC20A6376900B8E547 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FC3118BE20A6387900B8E547 /* AppDelegate.swift */,
+				FC3118CC20A6387900B8E547 /* LaunchScreen.storyboard */,
+				FC3118BF20A6387900B8E547 /* OrganizerStoryboard.storyboard */,
+				FC3118BD20A6387900B8E547 /* Main.storyboard */,
+				FC3118CF20A6387A00B8E547 /* Assets.xcassets */,
+				FC3118C020A6387900B8E547 /* Fonts */,
+				FC3118D020A6387A00B8E547 /* GoogleService-Info.plist */,
+				FC3118CE20A6387900B8E547 /* Info.plist */,
+				FC3118CD20A6387900B8E547 /* FanLink.entitlements */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FC3118C020A6387900B8E547 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FC3118C120A6387900B8E547 /* ProximaNova-Black.otf */,
+				FC3118C220A6387900B8E547 /* ProximaNova-Bold.otf */,
+				FC3118C320A6387900B8E547 /* ProximaNova-BoldIt.otf */,
+				FC3118C420A6387900B8E547 /* ProximaNova-Extrabold.otf */,
+				FC3118C520A6387900B8E547 /* ProximaNova-Light.otf */,
+				FC3118C620A6387900B8E547 /* ProximaNova-LightItalic.otf */,
+				FC3118C720A6387900B8E547 /* ProximaNova-RegItalic.otf */,
+				FC3118C820A6387900B8E547 /* ProximaNova-Regular.otf */,
+				FC3118C920A6387900B8E547 /* ProximaNova-RegularItalic.otf */,
+				FC3118CA20A6387900B8E547 /* ProximaNova-Semibold.otf */,
+				FC3118CB20A6387900B8E547 /* ProximaNova-SemiboldItalic.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A3ABE271E8F963200519C5F /* FanLink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A3ABE3A1E8F963300519C5F /* Build configuration list for PBXNativeTarget "FanLink" */;
+			buildPhases = (
+				7BBEFC2E13F791BA2C89B7BC /* [CP] Check Pods Manifest.lock */,
+				2A3ABE241E8F963200519C5F /* Sources */,
+				2A3ABE251E8F963200519C5F /* Frameworks */,
+				2A3ABE261E8F963200519C5F /* Resources */,
+				E889E12CBDF3168C0167447A /* [CP] Embed Pods Frameworks */,
+				3BC0D8386EC0DC1FF945CAD5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FanLink;
+			productName = FanLink;
+			productReference = 2A3ABE281E8F963200519C5F /* FanLink.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A3ABE201E8F963200519C5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = FanLink;
+				TargetAttributes = {
+					2A3ABE271E8F963200519C5F = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 32A3WC8DJ6;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 2A3ABE231E8F963200519C5F /* Build configuration list for PBXProject "FanLink" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A3ABE1F1E8F963200519C5F;
+			productRefGroup = 2A3ABE291E8F963200519C5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A3ABE271E8F963200519C5F /* FanLink */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A3ABE261E8F963200519C5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC3118DA20A6387A00B8E547 /* ProximaNova-RegItalic.otf in Resources */,
+				FC3118DB20A6387A00B8E547 /* ProximaNova-Regular.otf in Resources */,
+				FC3118D120A6387A00B8E547 /* Main.storyboard in Resources */,
+				FC3118DC20A6387A00B8E547 /* ProximaNova-RegularItalic.otf in Resources */,
+				FC3118DE20A6387A00B8E547 /* ProximaNova-SemiboldItalic.otf in Resources */,
+				FC3118D920A6387A00B8E547 /* ProximaNova-LightItalic.otf in Resources */,
+				FC3118D520A6387A00B8E547 /* ProximaNova-Bold.otf in Resources */,
+				FC3118D620A6387A00B8E547 /* ProximaNova-BoldIt.otf in Resources */,
+				FC3118E020A6387A00B8E547 /* Info.plist in Resources */,
+				FC3118DD20A6387A00B8E547 /* ProximaNova-Semibold.otf in Resources */,
+				FC3118D820A6387A00B8E547 /* ProximaNova-Light.otf in Resources */,
+				FC3118D320A6387A00B8E547 /* OrganizerStoryboard.storyboard in Resources */,
+				FC3118E220A6387A00B8E547 /* GoogleService-Info.plist in Resources */,
+				FC3118DF20A6387A00B8E547 /* LaunchScreen.storyboard in Resources */,
+				FC3118D720A6387A00B8E547 /* ProximaNova-Extrabold.otf in Resources */,
+				FC3118E120A6387A00B8E547 /* Assets.xcassets in Resources */,
+				FC3118D420A6387A00B8E547 /* ProximaNova-Black.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BC0D8386EC0DC1FF945CAD5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FanLink/Pods-FanLink-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BBEFC2E13F791BA2C89B7BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E889E12CBDF3168C0167447A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FanLink/Pods-FanLink-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A3ABE241E8F963200519C5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC31189420A58C7600B8E547 /* ManageRaffleViewController.swift in Sources */,
+				FC31189020A58C7500B8E547 /* SeeQuestionsViewController.swift in Sources */,
+				FC31187720A58C7500B8E547 /* AdminRowHeightCounter.swift in Sources */,
+				FC31189220A58C7600B8E547 /* AskedQuestoinsViewController.swift in Sources */,
+				FC31189320A58C7600B8E547 /* AdminQuestionCell.swift in Sources */,
+				FC31189C20A58C7600B8E547 /* QAViewController.swift in Sources */,
+				FC31187620A58C7500B8E547 /* Reachability.swift in Sources */,
+				FC31187920A58C7500B8E547 /* RowHeightCounter.swift in Sources */,
+				FC31187820A58C7500B8E547 /* InsettedLabel.swift in Sources */,
+				FC31189620A58C7600B8E547 /* RepliesViewController.swift in Sources */,
+				FC3118A220A58C7600B8E547 /* NewQuestionViewController.swift in Sources */,
+				FC31188E20A58C7500B8E547 /* SeePollsViewController.swift in Sources */,
+				FC3118A020A58C7600B8E547 /* ResponseTableViewController.swift in Sources */,
+				FC3118A420A58C7600B8E547 /* PollCell.swift in Sources */,
+				FC31189A20A58C7600B8E547 /* DisplayQuestionViewController.swift in Sources */,
+				FC31187A20A58C7500B8E547 /* StaticVariables.swift in Sources */,
+				FC31188F20A58C7500B8E547 /* SeePollCell.swift in Sources */,
+				FC31189920A58C7600B8E547 /* TabBarViewController.swift in Sources */,
+				FC3118D220A6387A00B8E547 /* AppDelegate.swift in Sources */,
+				FC3118A120A58C7600B8E547 /* ResponseCell.swift in Sources */,
+				FC31189520A58C7600B8E547 /* NewPollViewController.swift in Sources */,
+				FC31189720A58C7600B8E547 /* AdminReplyCell.swift in Sources */,
+				FC31189120A58C7500B8E547 /* SignUpController.swift in Sources */,
+				FC31189820A58C7600B8E547 /* LandingViewController.swift in Sources */,
+				FC31189E20A58C7600B8E547 /* QRScannerViewController.swift in Sources */,
+				FC3118A320A58C7600B8E547 /* PollsViewController.swift in Sources */,
+				FC31188D20A58C7500B8E547 /* AdminLoginViewController.swift in Sources */,
+				FC31189D20A58C7600B8E547 /* QuestionCell.swift in Sources */,
+				FC31189B20A58C7600B8E547 /* FanLoginViewController.swift in Sources */,
+				FC31189F20A58C7600B8E547 /* RaffleViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2A3ABE381E8F963300519C5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2A3ABE391E8F963300519C5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A3ABE3B1E8F963300519C5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50ABAB37ED8AB065F0673ED2 /* Pods-FanLink.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/FanLink/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cliffordYin.FanLink3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2A3ABE3C1E8F963300519C5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C21325C4D285814C6C0EEB0 /* Pods-FanLink.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/FanLink/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cliffordYin.FanLink3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A3ABE231E8F963200519C5F /* Build configuration list for PBXProject "FanLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A3ABE381E8F963300519C5F /* Debug */,
+				2A3ABE391E8F963300519C5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A3ABE3A1E8F963300519C5F /* Build configuration list for PBXNativeTarget "FanLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A3ABE3B1E8F963300519C5F /* Debug */,
+				2A3ABE3C1E8F963300519C5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A3ABE201E8F963200519C5F /* Project object */;
+}
